@@ -1,0 +1,2 @@
+class MiiInterpreter:
+    pass
