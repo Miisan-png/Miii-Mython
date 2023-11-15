@@ -1,5 +1,6 @@
-mvar a = 20
-mvar b = 200
-Add b to a
-
-mprint b
+mvar x = 5
+mvar y = 10
+Add y to x
+mprint x
+mfunc y_function: mvar z = 3; Add x to z; mprint z
+mrun y_function
