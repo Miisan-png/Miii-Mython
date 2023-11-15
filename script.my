@@ -1,6 +1,0 @@
-
-mfunc add_numbers(x, y):
-    result = x add y;
-    mprint(result);
-
-mrun add_numbers(run for 2);
