@@ -1,4 +1,6 @@
-mvar name = ""
+mvar myname = "rafa"
 
-mfunc Hi()
-mrun Hi
+mvar a = 200
+mvar b = 20
+Sub b from a
+mprint b
