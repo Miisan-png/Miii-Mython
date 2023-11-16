@@ -1,8 +1,1 @@
 mvar myname = "rafa"
-
-
-Create.File(("NEW")txt)
-mvar a = 200
-mvar b = 20
-Sub b from a
-mprint b
