@@ -1,0 +1,4 @@
+mvar name = ""
+
+mfunc Hi()
+mrun Hi

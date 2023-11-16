@@ -35,7 +35,7 @@ def parse(token):
         with open(file_name, "a") as file:
             file.write(content + "\n")
     elif token.startswith("AskInput"):
-        prompt = token.split('("')[1].split('")')[0]
+        prompt = token.split('("' )[1].split('")')[0]
         user_input = input(prompt)
         return user_input
     elif token.startswith("if"):
@@ -43,6 +43,7 @@ def parse(token):
         if eval(condition):
             return "if"
         else:
+            
             return "else"
     elif token.startswith("elif"):
         condition = token.split("elif")[1].strip()
@@ -52,7 +53,19 @@ def parse(token):
         return "else"
     elif token.startswith("and"):
         return "and"
-    # Add more conditions here for other line types
+    else:
+        Error()
+    #0 Add more conditions here for other line types
+
+command_not_found = False
+def Error():
+    if command_not_found:
+        print("This Command is not found")
+    elif command_not_found: 
+        print("Running the program")
+    else:
+        print("Command Initiated")
+        
 
 def execute(script):
    tokens = tokenize(script)
