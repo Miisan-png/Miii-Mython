@@ -1,13 +1,7 @@
-# Variable assignment
-mvar x = 200
-mvar y = 10
+mvar x = 20
+mvar v = 40
+mvar data = 2000
+Add x to data
+Add v to data
 
-# If command
-If x > y mprint "x is bigger than y"
-If y < x mprint "y is less than x"
-
-# Define a function
-mfunc greet = mprint "Hello, World!"
-
-# Call the function
-mrun greet
+mprint 
