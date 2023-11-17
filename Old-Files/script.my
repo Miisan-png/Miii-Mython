@@ -1,0 +1,7 @@
+mvar a = 20
+mvar b = 50
+Add b to a
+mprint b 
+
+mvar hello = "hello world"
+mprint hello

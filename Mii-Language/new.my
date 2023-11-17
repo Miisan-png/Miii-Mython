@@ -1,0 +1,30 @@
+mvar a = 200
+mvar b = 200
+Add a to b
+CreateFile()
+mprint a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,7 +7,7 @@ print("Welcome to Mii Language Command Panel")
 print("Version 0.01")
 
 while True:
-    action = input('Would you like to run a script, create a new script, or edit an existing script? (run/create/edit): ')
+    action = input('to code in Mii - Define(run/create/edit): ')
     if action.lower() == 'run':
        my_files = glob.glob('*.my')
        filename = input('Enter the name of the .my script to run: ')

@@ -68,6 +68,10 @@ def Error():
     else:
         print("Command Initiated")
         
+        
+def lexer_checker():
+    pass
+    print("check all the remaining tokens")
 
 # LanguageMi.py
 def run_script(filename):
