@@ -1,6 +1,6 @@
 # Mii Language Interpreter
 Welcome to the Mii Language Interpreter, a Python-based interpreter for a custom scripting language.
-![Marta](https://github.com/psy-lilulu/Mii-Custom-Language/assets/128460054/1490dfc0-8b36-4713-96ac-7c1025747cd9) 
+![Untitled design](https://github.com/psy-lilulu/Mii-Custom-Language/assets/128460054/a2c1db6a-e974-4319-868d-ea1702b83e5e)
 ## Getting Started
 
 ### Prerequisites
