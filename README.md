@@ -11,7 +11,8 @@ Welcome to the Mii Language Interpreter, a Python-based interpreter for a custom
 ### Installation
 
 1. Clone the repository or download the source code.
-2. Ensure Python is installed on your system.
+2.Clone Mii-Language Folder
+3. Ensure Python is installed on your system.
 
 ### Usage
 
