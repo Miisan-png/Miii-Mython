@@ -29,4 +29,6 @@ Welcome to the Mii Language Interpreter, a Python-based interpreter for a custom
   1. Choose the `edit` option in the shell.
   2. Select the script you want to edit.
   3. Append or modify the existing script. Use `END` on a new line to finish editing.
+  
+#### EXAMPLE SCRIPTS
 ![carbon(1)](https://github.com/psy-lilulu/Mii-Custom-Language/assets/128460054/a7740fdf-3f6f-4dd8-8748-179f954a90b3)
