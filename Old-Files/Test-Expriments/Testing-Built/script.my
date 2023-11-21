@@ -1,7 +1,0 @@
-mvar x = 20
-mvar v = 40
-mvar data = 2000
-Add x to data
-Add v to data
-
-mprint 

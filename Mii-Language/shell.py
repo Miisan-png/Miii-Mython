@@ -1,10 +1,25 @@
-# shell.py
-## Importing the language
 import LanguageMi
 import glob
+from asciimatics.effects import Cycle, Stars
+from asciimatics.renderers import FigletText
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
 
-print("Welcome to Mii Language Command Panel")
 print("Version 0.01")
+
+def demo(screen):
+    effects = [
+        Cycle(
+            screen,
+            FigletText("Mii!", font='big'),
+            int(screen.height / 2 - 4)),
+        Cycle(
+            screen,
+            FigletText("!", font='big'),
+            int(screen.height / 2 + 3)),
+        Stars(screen, 200)
+    ]
+    screen.play([Scene(effects, 500)])
 
 while True:
     action = input('to code in Mii - Define(run/create/edit): ')
