@@ -1,5 +1,6 @@
 # Mii Language Interpreter
 Welcome to the Mii Language Interpreter, a Python-based interpreter for a custom scripting language.
+MADE IN ONE DAY
 
 ## Getting Started
 
