@@ -9,7 +9,6 @@ Welcome to the Mii Language Interpreter, a Python-based interpreter for a custom
 
 ### Installation
 1. Clone the repository or download the source code.
-2.Clone Mii-Language Folder
 
 
 #### Running Scripts
